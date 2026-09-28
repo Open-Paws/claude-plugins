@@ -1,0 +1,15 @@
+{
+  "name": "open-paws",
+  "description": "Open Paws plugins for Claude: AI tools for animal advocates.",
+  "owner": {
+    "name": "Open Paws",
+    "url": "https://openpaws.ai"
+  },
+  "plugins": [
+    {
+      "name": "open-paws-tools",
+      "source": "./plugins/open-paws-tools",
+      "description": "Deep Research reports and quick answers from the Open Paws knowledge base of animal advocacy sources."
+    }
+  ]
+}

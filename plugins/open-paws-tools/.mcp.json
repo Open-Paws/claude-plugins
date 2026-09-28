@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "open-paws": {
+      "type": "http",
+      "url": "https://tools-api-production-71f4.up.railway.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_token}"
+      }
+    }
+  }
+}

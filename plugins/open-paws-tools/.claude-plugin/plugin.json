@@ -1,0 +1,23 @@
+{
+  "name": "open-paws-tools",
+  "displayName": "Open Paws Tools",
+  "version": "0.1.0",
+  "description": "Open Paws' AI tools for animal advocates: in-depth Deep Research reports with sources, and quick answers from a knowledge base of animal advocacy sources. Needs an Open Paws access token.",
+  "author": {
+    "name": "Open Paws",
+    "url": "https://openpaws.ai"
+  },
+  "homepage": "https://github.com/Open-Paws/claude-plugins",
+  "repository": "https://github.com/Open-Paws/claude-plugins",
+  "license": "MIT",
+  "keywords": ["animal advocacy", "research", "open paws"],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "Open Paws access token",
+      "description": "Your token for the Open Paws Tools API. It starts with opk_; ask Open Paws for one.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}
