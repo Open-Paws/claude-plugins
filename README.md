@@ -27,18 +27,20 @@ supermarkets since 2020", or run `/open-paws-tools:deep-research`.
 - To change the token: `/plugin configure open-paws-tools@open-paws`.
 - To get updates: `/plugin marketplace update open-paws`.
 
-## claude.ai, the desktop app and Cowork
+## claude.ai, the desktop app, mobile and Cowork
 
-The plugin's skills load there too, but its connection to the Open Paws server
-needs a token, and those apps can't ask for one. Until Open Paws offers
-sign-in, an Owner of your Claude organization can add the server as a custom
-connector:
-
-- URL: `https://tools-api-production-71f4.up.railway.app/mcp`
-- Request header: `authorization`, with the value `Bearer opk_…`
-
-Request headers are a Claude beta that not every organization has yet, and
-everyone in the organization then shares that one token.
+1. **The tools:** go to **Customize → Connectors → Add custom connector** and
+   enter `https://tools-api-production-71f4.up.railway.app/mcp`. If it asks how
+   Claude should identify itself, choose **Register automatically**. On a Team or
+   Enterprise plan, an Owner adds the connector under **Organization settings →
+   Connectors**, and each member connects with their own token.
+2. **Connect:** Claude opens the Open Paws sign-in page. Paste your token there,
+   once. Claude never sees the token itself: it gets a key for that connection
+   and renews it by itself, and the key stops working if your token is revoked.
+3. **The skills (optional):** go to **Customize → Plugins → Add → Add
+   marketplace**, enter `https://github.com/Open-Paws/claude-plugins`, and install
+   **Open Paws Tools**. If you also use Claude Code, it gets a synced copy of the
+   plugin; keep one copy there and turn the other off.
 
 ## What the plugin sends, and where
 

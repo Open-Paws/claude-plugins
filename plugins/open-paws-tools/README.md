@@ -15,10 +15,14 @@ also picks them up on its own when a request fits.
 
 ## Setup
 
-You need an Open Paws access token (it starts with `opk_`). Install the plugin
-from the `open-paws` marketplace, as the [repository README](../../README.md)
-shows, and enter the token when Claude Code asks. It's kept in your system
-keychain.
+You need an Open Paws access token (it starts with `opk_`).
+
+- **Claude Code:** install the plugin from the `open-paws` marketplace, as the
+  [repository README](../../README.md) shows, and enter the token when Claude
+  Code asks. It's kept in your system keychain.
+- **claude.ai, the desktop app, mobile and Cowork:** add the Open Paws server as
+  a custom connector and sign in with your token on the Open Paws sign-in page.
+  The [repository README](../../README.md) has the steps.
 
 ## Tools
 
