@@ -29,9 +29,10 @@ before starting another.
 
 ## 3. Wait for it
 
-Call `get_run_result` with the `run_id`. Each call waits up to 40 seconds, so
-call it again straight away while the status is `pending`. You can work on other
-parts of the user's request in between.
+Call `get_run_result` with the `run_id`. It waits up to 14 minutes for the run
+to finish, so one call usually returns the report. If the status is still
+`pending`, call it again. If the call itself times out before the run finishes,
+call it again with `wait_seconds` set to 40 and keep checking that way.
 
 ## 4. Present the report
 

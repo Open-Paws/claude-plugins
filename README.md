@@ -5,7 +5,7 @@ advocates into Claude.
 
 | Plugin | What it adds |
 |---|---|
-| [`open-paws-tools`](plugins/open-paws-tools) | Deep Research reports with sources, and quick answers from the Open Paws knowledge base of animal advocacy sources. |
+| [`open-paws-tools`](plugins/open-paws-tools) | Deep Research reports with sources, OSINT reports on companies, and quick answers from the Open Paws knowledge base of animal advocacy sources. |
 
 ## Install in Claude Code
 
@@ -44,9 +44,9 @@ supermarkets since 2020", or run `/open-paws-tools:deep-research`.
 
 ## What the plugin sends, and where
 
-Your questions, plus any organization name or instructions you add, go to the
-Open Paws Tools API. It runs them through Open Paws' research workflows, which
-search the web and use AI models. Open Paws keeps your runs and conversations,
+Your questions, the companies you research, and any organization name or
+instructions you add, go to the Open Paws Tools API. It runs them through Open
+Paws' research workflows, which search the web and use AI models. Open Paws keeps your runs and conversations,
 linked to your token, until you ask for them to be deleted. Nothing is stored in
 this plugin.
 
