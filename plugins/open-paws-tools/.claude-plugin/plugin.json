@@ -1,8 +1,8 @@
 {
   "name": "open-paws-tools",
   "displayName": "Open Paws Tools",
-  "version": "0.1.0",
-  "description": "Open Paws' AI tools for animal advocates: in-depth Deep Research reports with sources, and quick answers from a knowledge base of animal advocacy sources. Needs an Open Paws access token.",
+  "version": "0.2.0",
+  "description": "Open Paws' AI tools for animal advocates: in-depth Deep Research reports with sources, OSINT reports on companies, and quick answers from a knowledge base of animal advocacy sources. Needs an Open Paws access token.",
   "author": {
     "name": "Open Paws",
     "url": "https://openpaws.ai"

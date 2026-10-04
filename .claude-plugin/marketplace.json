@@ -9,7 +9,7 @@
     {
       "name": "open-paws-tools",
       "source": "./plugins/open-paws-tools",
-      "description": "Deep Research reports and quick answers from the Open Paws knowledge base of animal advocacy sources."
+      "description": "Deep Research reports, company research and quick answers from the Open Paws knowledge base of animal advocacy sources."
     }
   ]
 }
