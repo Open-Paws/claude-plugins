@@ -29,6 +29,10 @@ supermarkets since 2020", or run `/open-paws-tools:deep-research`.
 
 ## claude.ai, the desktop app, mobile and Cowork
 
+Setting this up with people who don't work with code? The [printable setup
+guide](docs/open-paws-tools-setup-guide.pdf) covers the same steps in plain
+language, and is made to be emailed on or printed.
+
 1. **The tools:** go to **Customize → Connectors → Add custom connector** and
    enter `https://tools-api-production-71f4.up.railway.app/mcp`. If it asks how
    Claude should identify itself, choose **Register automatically**. On a Team or
